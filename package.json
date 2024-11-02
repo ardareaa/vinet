@@ -1,0 +1,23 @@
+{
+  "name": "vinet",
+  "version": "1.0.3-beta.1.0.2",
+  "description": "Vi Services geliştiricileri için hazırlanan modul.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardareaa/vinet.git"
+  },
+  "author": "Vi Services - @ardareaa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.21.1",
+    "moment-timezone": "^0.5.46",
+    "node-fetch": "1.6",
+    "node-machine-id": "^1.1.12"
+  }
+}
