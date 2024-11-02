@@ -182,6 +182,14 @@ app.post('/action', async (request, response) => {
             console.log("Uygulama bilgileri alınırken hata oluştu:", application.message);
         }
 
+        const product = await Manager.getProduct();
+        console.log("Ürün bilgileri alma sonucu:", product);
+
+        if (product.success) {
+            console.log("Ürün Bilgileri:", product);
+        } else {
+            console.log("Ürün bilgileri alınırken hata oluştu:", product.message);
+        }
     } catch (error) {
         console.error("Bir hata oluştu:", error.message);
     }
