@@ -69,5 +69,18 @@ module.exports = {
      */
     getDate: require('./utils/getDate.js'),
 
-
+    /**
+     * @module timeConvert
+     * @description Bu fonksiyon, verilen bir tarih-zaman değeri ile mevcut zaman arasındaki farkı hesaplar 
+     * ve sonucu insan tarafından okunabilir bir süre ifadesi olarak döndürür.
+     *
+     * @param {string|Date} zaman - Geçmiş bir tarih-zaman değeri (örneğin, "2023-11-01T15:30:00Z" gibi bir ISO 8601 formatında).
+     * @returns {string} - Geçmiş tarihe göre ne kadar süre geçtiğini belirten insan tarafından okunabilir ifade 
+     *                     (örn: "5 dakika önce", "3 saat önce", "2 gün önce").
+     *
+     * @example
+     * // Örnek kullanım:
+     * timeConvert("2023-11-01T15:30:00Z"); // "2 gün önce" gibi bir çıktı verir
+     */
+    timeConvert: require('./utils/timeConvert.js'),
 }
