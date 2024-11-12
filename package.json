@@ -1,6 +1,6 @@
 {
   "name": "vinet",
-  "version": "1.0.3-beta.1.0.3",
+  "version": "1.0.3-beta.1.0.4",
   "description": "Vi Services geliştiricileri için hazırlanan modul.",
   "main": "index.js",
   "scripts": {
